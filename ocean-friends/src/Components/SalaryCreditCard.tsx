@@ -49,7 +49,7 @@ const SalaryCreditCard = ({ onContinuousPress, onRelease }: any) => {
           <span className="font-500 leading-8 text-[14px]">Universal Bank</span>
         </div>
         <div className="justify-between flex flex-row">
-          <div className="w-[58.7px] h-[49px] bg-[rgba(255, 255, 255, 0.3)] rounded-[10px]"></div>
+          <div className="w-[58.7px] h-[49px]  bg-white bg-opacity-30 rounded-[10px]"></div>
           <p> wifi img</p>
         </div>
         <p className="text-[22px] font-black tracking-[0.22px] mt-5">
@@ -59,7 +59,7 @@ const SalaryCreditCard = ({ onContinuousPress, onRelease }: any) => {
           <p className="mt-3 text-[14px] font-normal text-[rgba(255, 255, 255, 0.60)]">
             04/24
           </p>
-          <p style={{ marginTop: 17 }}> master img</p>
+          <p className="mt-[17px]"> master img</p>
         </div>
       </div>
     </div>
