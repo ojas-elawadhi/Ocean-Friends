@@ -12,7 +12,7 @@ const CreditCard = () => {
           <span className="font-500 leading-8 text-[14px]">Universal Bank</span>
         </div>
         <div className="justify-between flex flex-row">
-          <div className="w-[58.7px] h-[49px]  bg-white bg-opacity-30 rounded-[10px]"></div>
+          <div className="w-[58.7px] h-[49px] bg-white bg-opacity-30 rounded-[10px]"></div>
           <p> wifi img</p>
         </div>
         <p className="text-[22px] font-black tracking-[0.22px] mt-5">
