@@ -1,22 +1,7 @@
 const BankCardHeading = () => {
   return (
-    <div
-      className="w-full"
-      style={{
-        backgroundColor: "green",
-        paddingLeft: 16,
-        paddingRight: 16,
-        paddingTop: 47,
-        paddingBottom: 40,
-      }}
-    >
-      <div
-        style={{
-          flexDirection: "row",
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
+    <div className="w-full bg-[green] px-4 pt-12 pb-10">
+      <div className="flex flex-row justify-between">
         <p className="text-white text-[32px] leading-10 tracking-[0.374px] font-bold ">
           Bank
           <br />
