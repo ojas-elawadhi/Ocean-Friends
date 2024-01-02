@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  pageExtensions: ["page.js", "page.tsx"],
   async redirects() {
     return [
       {
         source: "/",
-        destination: "/",
+        destination: "/home",
         permanent: true,
       },
     ];
