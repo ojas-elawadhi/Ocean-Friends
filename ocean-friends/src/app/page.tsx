@@ -5,7 +5,15 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between overflow-clip">
+    <main
+      style={{
+        display: "flex",
+        minHeight: "100dvh",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        overflow: "clip",
+      }}
+    >
       <BankCardHeading />
       <Link href={`/salarycard`}>
         <CreditCard />

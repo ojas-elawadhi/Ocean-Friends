@@ -1,18 +1,55 @@
 const BankCardHeading = () => {
   return (
-    <div className="w-full bg-[green] px-4 pt-12 pb-10">
-      <div className="flex flex-row justify-between">
-        <p className="text-white text-[32px] leading-10 tracking-[0.374px] font-bold ">
+    <div
+      style={{
+        width: "100%",
+        backgroundColor: "green",
+        padding: "48px 16px 40px",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
+        <p
+          style={{
+            color: "white",
+            fontSize: "32px",
+            lineHeight: "40px",
+            letterSpacing: "0.374px",
+            fontWeight: "bold",
+          }}
+        >
           Bank
           <br />
           Cards
         </p>
         <p>img</p>
       </div>
-      <p className=" leading-[26px] tracking-[0.3px] text-[16px] font-bold mb-1 text-[#94A3D3]">
+      <p
+        style={{
+          lineHeight: "26px",
+          letterSpacing: "0.3px",
+          fontSize: "16px",
+          fontWeight: "bold",
+          marginBottom: "4px",
+          color: "#94A3D3",
+        }}
+      >
         Balance
       </p>
-      <p className="leading-[26px] tracking-[0.3px] text-white text-[26px] font-bold ">
+      <p
+        style={{
+          lineHeight: "26px",
+          letterSpacing: "0.3px",
+          color: "white",
+          fontSize: "26px",
+          fontWeight: "bold",
+        }}
+      >
         $1235.69
       </p>
     </div>
